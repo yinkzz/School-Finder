@@ -1,0 +1,25 @@
+.container {
+    width: 150px;
+}
+
+
+.up {
+    width: 1200px;
+    height: 500px;
+}
+
+.down {
+    margin-top: 30px;
+}
+
+.py-5 {
+    background-color: black;
+}
+   
+.col-2 {
+color: white;
+}
+
+mb-2 {
+    color: white;
+}

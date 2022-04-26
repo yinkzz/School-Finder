@@ -1,0 +1,29 @@
+.body {
+    background-image: "https://www.uab.edu/toolkit/images/branded-items/virtual-backgrounds/UABZoom8.jpg";
+
+}
+
+.wrap {
+    background-color: rgb(10, 10, 19);
+    width: 600px;
+    height: 635px;
+    border-radius: 20px;
+    margin-left: 210px;
+}
+
+.addaschool {
+    color: white;
+    font-size: 25px;
+    align-content: center;
+    margin-left: 200px;
+    margin-bottom: 25px;
+}
+
+.row {
+    padding: 15px;
+}
+
+.addbutton {
+    margin-left: 230px;
+    padding-top: 20px;
+}
