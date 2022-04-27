@@ -22,7 +22,7 @@
     color: aqua;
 }
 
-.form-label{
+.form-label {
     margin-left: 13px;
     margin-top: 5px;
     /* width: 100%; */
@@ -64,6 +64,6 @@ width: 70px;
 
 .button {
     background-color: aqua;
-    border-radius:10px;
+    border-radius: 10px;
 
 }

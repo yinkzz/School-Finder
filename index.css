@@ -23,3 +23,13 @@ color: white;
 mb-2 {
     color: white;
 }
+
+#signinButton a, #signupButton a  {
+    color: white;
+    text-decoration: none;
+}
+
+#signinButton a:hover, #signupButton a:hover {
+    color: black; 
+}
+

@@ -24,15 +24,15 @@
         <span class="white"> IT'S COMPLETELY FREE </span>
       </p>
 
-      <form action="/action_page.php">
+      <form id="signupForm">
         <div class="mb-3 mt-3">
           <label for="firstname" class="form-label">First Name:</label>
-          <input type="firstname" class="form-control" id="firstname" placeholder="Enter First Name" name="firstname" />
+          <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" name="firstName" />
         </div>
 
         <div class="mb-3 mt-3">
           <label for="lastname" class="form-label">Last Name:</label>
-          <input type="lastname" class="form-control" id="lastname" placeholder="Enter Last Name" name="last" />
+          <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" name="lastName" />
         </div>
 
         <div class="mb-3 mt-3">
@@ -47,8 +47,8 @@
 
         <div class="mb-3">
           <label for="confirmpassword" class="form-label">Confirm Password:</label>
-          <input type="confirmpassword" class="form-control" id="confirmpassword" placeholder="Confirm Password"
-            name="confirmpassword" />
+          <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password"
+            name="confirmPassword" />
         </div>
 
         <div class="form-check mb-3">
@@ -58,12 +58,12 @@
             <span class="aquaText">terms & conditions</span>
           </label>
         </div>
-        <button type="createaccount" class="button">CREATE ACCOUNT</button>
+        <button type="submit" id="submit" class="button">CREATE ACCOUNT</button>
 
       </form>
     </div>
   </div>
-  <script src="script.js"></script>
+  <script src="signup.js"></script>
 
 </body>
 
