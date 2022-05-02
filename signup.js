@@ -20,7 +20,7 @@ function getToken() {
 
 function redirectToSigninPage() {
   window.location.href = "./signin.html";
-}
+  }
 
 signupForm.addEventListener("submit", (e) => {
   e.preventDefault();

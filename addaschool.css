@@ -1,29 +1,54 @@
-.body {
-    background-image: "https://www.uab.edu/toolkit/images/branded-items/virtual-backgrounds/UABZoom8.jpg";
-
-}
-
 .wrap {
-    background-color: rgb(10, 10, 19);
-    width: 600px;
-    height: 635px;
+    background-color: #17202A;
+    width: 500px;
+    height: 1000px;
+    margin-left: 300px;
+}
+
+.heading {
+    color: aqua;
+    padding-top: 30px;
+    margin-left: 85px;
+    font-family: cursive;
+}
+
+.formbody {
+    padding: 25px;
+    text-align: center;
+}
+
+.forform
+{
     border-radius: 20px;
-    margin-left: 210px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+    background-position: center;
 }
 
-.addaschool {
-    color: white;
-    font-size: 25px;
-    align-content: center;
-    margin-left: 200px;
-    margin-bottom: 25px;
+.textarea
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+    background-position: center;
 }
 
-.row {
+
+button
+{
+    color:  #17202A;
+    width: 120px;
     padding: 15px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: aqua;
 }
 
-.addbutton {
-    margin-left: 230px;
-    padding-top: 20px;
-}
+

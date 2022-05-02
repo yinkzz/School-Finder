@@ -2,82 +2,48 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ADD A SCHOOL</title>
-  <link href="addaschool.css" rel="stylesheet" type="text/css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add A School</title>
+    <link href="addaschool.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
 </head>
 
 <body>
+        <div class="wrap">
+            <div class="heading">
+            <h1>ADD A SCHOOL</h1>
+            </div>
 
-  <div class="container">
+<div class="formbody">
+            <form id = "container">
+                <input type = "text" class = "forform" placeholder = "School name" id = "name"> 
+                <input type = "text" class = "forform" placeholder = "School country" id = "country">
+                <input type = "text" class = "forform" placeholder = "School city" id = "city">
+                <input type = "text" class = "forform" placeholder = "School address" id = "address">
+                <input type = "text" class = "forform" placeholder = "School type" id = "type">
+                <input type = "text" class = "forform" placeholder = "School tuition fee range" id = "tuition_fee_range">
 
-    <div class="wrap">
+                <select id="ownership" name="type" class="forform">
+                  <option selected disabled> Ownership </option>
+                  <option value="university">Public</option>
+                  <option value="highSchool">Private</option>
+                </select>
+      
+                <input type = "text" class = "forform" placeholder = "Year founded" id = "founded">
+                <input type = "text" class = "forform" placeholder = "Total enrollment" id = "total_enrollment">
+                <textarea class = "textarea" id="short_desc" placeholder="Short description"></textarea>
+              <button id = "btn_submit" type="submit" class ="button">Add School</button>
+            </form>
+</div>
 
-      <div class="addaschool">ADD A SCHOOL</div>
-
-
-      <form>
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Name" name="name">
-          </div>
-          <div class="col">
-            <input type="password" class="form-control" placeholder="Country" name="country">
-          </div>
         </div>
+    <script src = "addASchool.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="City" name="city">
-          </div>
-          <div class="col">
-            <input type="password" class="form-control" placeholder="Address" name="address">
-          </div>
-        </div>
-
-
-        <div class="row">
-          <label for="type">Type</label>
-          <select id="type" name="type" class="form-control">
-            <option selected disabled> Select School Type </option>
-            <option value="public">Public</option>
-            <option value="private">Private</option>
-          </select>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Ownership" name="Ownership">
-          </div>
-          <div class="col">
-            <input type="password" class="form-control" placeholder="Founded" name="Founded">
-          </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Total Enrollment" name="total_enrollment">
-          </div>
-
-
-          <label for="short_desc">Short Description:</label>
-          <textarea class="form-control" rows="5" id="short_desc" name="short_desc"></textarea>
-
-          <div class="addbutton">
-
-            <button class="btn btn-primary">
-              <span class="spinner-border spinner-border-sm"></span>
-              ADD
-            </button>
-          </div>
-      </form>
-    </div>
-  </div>
 </body>
 
 </html>
